@@ -101,9 +101,9 @@ public/images/        pictures shown with next/image (home illustration + 4 note
 
 ## Links
 
-- Repository: _add GitHub/GitLab link here_
-- Video demo: _add Google Drive / YouTube link here_
-- Vercel deployment (bonus): _add link here if deployed_
+- Repository: https://github.com/ahmsaeed0967/NoteNest
+- Video demo: _add Google Drive link here_
+- Vercel deployment (bonus): http://notenest0.vercel.app/
 
 ## Technologies used
 
