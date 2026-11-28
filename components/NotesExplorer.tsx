@@ -58,6 +58,9 @@ export default function NotesExplorer({ notes, tags }: NotesExplorerProps) {
     if (sortOrder === "title") {
       return a.title.localeCompare(b.title);
     }
+    if (sortOrder === "title-desc") {
+      return b.title.localeCompare(a.title);
+    }
     return b.date.localeCompare(a.date); // "newest"
   });
 
@@ -83,6 +86,7 @@ export default function NotesExplorer({ notes, tags }: NotesExplorerProps) {
             <option value="newest">Newest first</option>
             <option value="oldest">Oldest first</option>
             <option value="title">Title (A–Z)</option>
+            <option value="title-desc">Title (Z–A)</option>
           </select>
           <Button
             variant={showFavouritesOnly ? "primary" : "secondary"}
